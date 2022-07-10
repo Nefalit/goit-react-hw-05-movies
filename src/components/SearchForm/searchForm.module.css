@@ -1,0 +1,35 @@
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.input {
+  font-size: 24px;
+  background-color: antiquewhite;
+  width: 350px;
+  padding: 5px;
+  color: #ff6b08;
+}
+
+.btn {
+  width: 100px;
+  font-size: 24px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  margin-left: 10px;
+  border-radius: 5px;
+  background-color: antiquewhite;
+  cursor: pointer;
+  color: #ff6b08;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #ff6b08;
+  color: black;
+}

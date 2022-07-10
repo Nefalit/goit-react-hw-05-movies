@@ -1,0 +1,32 @@
+.wrapper {
+  max-width: 1180px;
+  margin: 0 auto;
+  background-color: antiquewhite;
+  padding: 20px;
+}
+
+.text {
+  font-size: 36px;
+  font-weight: 700;
+  color: #ff6b08;
+  text-align: center;
+}
+.link {
+  width: 60px;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  border-radius: 5px;
+  color: #ff6b08;
+  background-color: antiquewhite;
+  margin-left: 55px;
+  font-size: 14px;
+  font-weight: 600;
+  border: 1px solid #ff6b08;
+}
+.link:hover,
+.link:focus {
+  background-color: #ff6b08;
+  color: black;
+}

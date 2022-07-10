@@ -1,0 +1,22 @@
+.header {
+  padding: 50px;
+  background-color: rgb(87, 30, 162);
+}
+
+.link {
+  font-size: 16px;
+  font-weight: 700;
+  background-color: antiquewhite;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: #ff6b08;
+  text-decoration: none;
+  margin-left: 3px;
+}
+
+.active {
+  composes: link;
+  background-color: #ff6b08;
+  color: black;
+}
